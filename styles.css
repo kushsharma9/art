@@ -1,0 +1,190 @@
+ /*
+font color :#000000;
+RED color:#f10c0c;
+nav color:#c2b3b3;
+*/
+
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: "titillium web", Ubuntu, arial, helvetica;
+	font-size: 14px;
+	color: #000000;
+}
+
+
+
+.wrapper{
+	width: 960px;
+	margin:0 auto;
+}
+
+header{
+	width: 960px;
+	height: 100px;
+	
+}
+
+header .logo{
+	padding-left: 10px;
+	padding-top: 48px;
+}
+nav{
+	width: 960px;
+	height: 50px;
+	background-color: #c2b3b3;
+}
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+} 
+nav ul li{
+	display: inline;
+
+}
+nav ul li a{
+	text-decoration: none;
+	color:#000000 ;
+	padding: 15px 20px 14px 20px;
+	float: left;
+	text-transform: uppercase;
+}
+nav ul li a:hover{
+background-color:#f10c0c;
+color: #ffffff;
+}
+.banner{
+	width: 920px;
+	height: 300px;
+}
+ main{
+ 	width: 620px;
+ 	float: left;
+ 	padding: 30px 10px;
+ }
+main h1, .widget h1{
+	text-transform: uppercase;
+	margin: 0 0 30px 0;
+	font-weight: normal;
+	font-size: 24px; 
+	border-bottom: 2px solid #f23131;
+}
+article{
+	float: left;
+	margin-bottom: 30px;
+	padding-bottom: 30px;
+	border-bottom: 1px solid #c0c0c0;
+	
+}
+article img {
+	float: left;
+	margin-right: 20px;
+}
+
+article h2{
+	margin: 0; 
+}
+ article h2 a{
+ 	text-decoration: none;
+ 	 color: #000000;
+ }                                             
+ article h2 a:hover{
+ 	color: #e40000;
+ }
+  article p{
+  	margin: 0;
+  }
+article .Readmore a{
+	text-decoration: none;
+	text-transform: uppercase;
+	background: #c2b3b3;
+	padding: 10px 20px;
+	color: #000000;
+	float: left;
+	font-size: 10;
+	padding-top: 10px
+}
+article .Readmore a:hover{
+	background-color:#f10c0c;
+	color: #fff;
+}
+.pagination ul li a:hover{
+	background-color: #f10c0c; 
+}
+.pagination{
+    width:620px;
+	height:50px;
+	text-align: center;		
+}
+.pagination ul{
+	list-style: none;
+	float: left;	
+}
+
+.pagination ul li{
+		display: inline;
+}
+
+.pagination ul li a {
+	color:#505050;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding:14px 20px;
+	color: #000000; 
+}
+
+ aside{
+ 	width: 300px;
+ 	float: left;
+ 	padding: 30px 10px;
+ }
+.widget{
+	padding-bottom: 30px;
+
+}
+.widget ul{
+	margin: 0;
+	padding-left: 20px;
+}
+.widget ul li{
+	margin-bottom: 15px;
+}
+.widget ul li a{
+	color: #505050;
+	text-decoration: none;
+	font-size: 16px;
+}
+.widget ul li a:hover{
+	color: #f10c0c;
+	font-weight: bold;
+}
+footer{
+	width: 960px;
+	height: 100px;
+	background-color: #f10c0c;
+	float: left;
+}	
+footer p{
+	text-align: center;
+	color: #fff;
+}
+/*---------------------gallery--------------------*/
+.gallery{
+	float: left;
+	margin-right: 15px;
+}
+.gallery img{
+	width: 180px;
+	height: 150px;	
+}
+.gallery p :hover{
+	margin-top: 0px; 
+}
+.gallery p{
+	text-align: center;
+}
+
+
+
